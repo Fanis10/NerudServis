@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Gulp pack for easy html/php markup development">
+	<meta name="keywords" content="">
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Контакты</title>
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=9133eb49-3a97-4b2d-90be-6b80a97a5036" type="text/javascript"></script>
+</head>
+
+
+<body>
+<header class="header2">
+	<div class="container">
+        <div class="header__inner">
+            <div class="header__burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="header__left">
+                <a class="header__logo" href="">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="header__center">
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li><a class="header__link" href="">о нас</a></li>
+                        <li>
+                            <div class="header__item">
+                                <div class="header__item-show">
+                                    <span class="header__link">услуги</span>
+                                </div>
+                                <div class="header__item-hidden">
+                                    <div class="header__hidden-inner">
+                                        <a class="header__item-link" href="">Замена двигателей</a>
+                                        <a class="header__item-link" href="">Замена двигателей</a>
+                                        <a class="header__item-link" href="">Замена двигателей</a>
+                                        <a class="header__item-link" href="">Замена двигателей</a>
+                                        <a class="header__item-link" href="">Замена двигателей</a>
+                                        <a class="header__item-link" href="">Замена двигателей</a>
+                                        <a class="header__item-link" href="">Замена двигателей</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a class="header__link" href="">цены</a></li>
+                        <li><a class="header__link" href="">марки авто</a></li>
+                        <li><a class="header__link" href="">контакты</a></li>
+                    </ul>
+                    <button class="header__btn">заказать звонок</button>
+                </nav>
+            </div>
+            <div class="header__right">
+                <div class="header__connection">
+                    <a href="tel:+7 (4872) 00-00-00" class="header__img">
+                        <img class="header__tel" src="img/tel.svg" alt="">
+                        <img class="header__tel-mob" src="img/tel-mob.svg" alt="">
+                    </a>
+                    <div class="header__numbers">
+                        <a class="header__number" href="tel:+7 (4872) 00-00-00">
+                            <span>+7 (4872) 00-00-00</span>
+                        </a>
+                        <a class="header__number" href="tel:+7 (4872) 00-00-00">
+                            <span>+7 (4872) 00-00-00</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+	<div class="breadcrumbs">
+		<div class="container">
+			<div class="breadcrumbs__items">
+				<a href="index.html" class="breadcrumbs__item">Главная</a>
+				<span class="breadcrumbs__item breadcrumbs__item--active">Контакты</span>
+			</div>
+		</div>
+	</div>
+	<section class="contacts">
+		<img class="contacts__img" src="img/prices-bg.webp" alt="">
+		<div class="container">
+			<div class="contacts__inner">
+				<h2 class="contacts__title display2">Контакты</h2>
+				<div class="contacts__items">
+					<div class="contacts__item">
+						<i class="contacts__tel-icon">
+							<img src="img/tel3.svg" alt="">
+						</i>
+						<div class="contacts__numbers">
+							<div class="contacts__subtitle">Наши контакты:</div>
+							<a class="contacts__number" href="tel:+7 (4872) 00-00-00">+7 (4872) 00-00-00</a>
+							<a class="contacts__number" href="tel:+7 (4872) 00-00-00">+7 (4872) 00-00-00</a>
+						</div>
+					</div>
+					<div class="contacts__item">
+						<i>
+							<img src="img/location2.svg" alt="">
+						</i>
+						<div class="contacts__location-wrap">
+							<span>Наш адрес:</span>
+							<span>г. Тула, ул. Ленина, д.1</span>
+						</div>
+					</div>
+					<div class="contacts__item">
+						<i>
+							<img src="img/mail2.svg" alt="">
+						</i>
+						<div class="contacts__mail-wrap">
+							<span>Наш e-mail:</span>
+							<a class="contacts__mail" href="mailto:info@ng-service.ru">info@ng-service.ru</a>
+						</div>
+					</div>
+					<div class="contacts__item">
+						<i>
+							<img src="img/chart2.svg" alt="">
+						</i>
+						<div class="contacts__chart-wrap">
+							<span>Время работы:</span>
+							<span>Ежедневно</span>
+							<span>с 9:00 до 19:00</span>
+						</div>
+					</div>
+				</div>
+				<div id="map" class="map2"></div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__items">
+                <div class="footer__item">
+                    <a class="footer__logo" href="">
+                        <img src="img/logo.png" alt="">
+                    </a>
+                    <a href="" class="footer__service">Ремонт и сервисное обслуживание грузовых автомобилей</a>
+                    <a href="" class="footer__service"><span>Разработка и продвижение сайта <br></span>- BREVIS
+                    </a>
+                </div>
+                <div class="footer__item">
+                    <ul class="footer__list">
+                        <li><a href="">О нас</a></li>
+                        <li><a href="">Услуги</a></li>
+                        <li><a href="">Цены</a></li>
+                        <li><a href="">Марки авто</a></li>
+                        <li><a href="">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <ul class="footer__list">
+                        <li><a href="">Ремонт грузовых автомобилей</a></li>
+                        <li><a href="">Ремонт прицепов</a></li>
+                        <li><a href="">Ремонт спецтехники</a></li>
+                        <li><a href="">Ремонт тягачей</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__tel">
+                        <i class="footer__tel-icon">
+                            <img src="img/tel2.svg" alt="">
+                        </i>
+                        <div class="footer__numbers">
+                            <a class="footer__number" href="tel:+7 (4872) 00-00-00">+7 (4872) 00-00-00</a>
+                            <a class="footer__number" href="tel:+7 (4872) 00-00-00">+7 (4872) 00-00-00</a>
+                        </div>
+                    </div>
+                    <a href="" class="footer__location">
+                        <i>
+                            <img src="img/location.svg" alt="">
+                        </i>
+                        <span>г. Тула, ул. Ленина, д.1, оф. 2</span>
+                    </a>
+                    <a class="footer__mail" href="mailto:info@ng-service.ru">
+                        <i>
+                            <img src="img/mail.svg" alt="">
+                        </i>
+                        <span>info@ng-service.ru</span>
+                    </a>
+                    <a class="footer__chart" href="">
+                        <i>
+                            <img src="img/chart.svg" alt="">
+                        </i>
+                        <span>Ежедневно <br> с 9:00 до 19:00</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+	<script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+
+	<script type="text/javascript">
+    ymaps.ready(init);
+
+function init() {
+    var myMap = new ymaps.Map("map", {
+        center: [54.133506, 37.582511],
+        zoom: 15
+    });
+
+    var myPlacemark = new ymaps.Placemark([54.133506, 37.582511], null, {
+        iconLayout: 'default#image',
+        iconImageHref: "img/map-icon.svg",
+        iconImageSize: [45, 60],
+        // iconImageOffset: [-15, -44]
+    });
+    myMap.geoObjects.add(myPlacemark);
+    myMap.behaviors.disable('scrollZoom');
+
+}
+</script>
+</body>
+
+</html>

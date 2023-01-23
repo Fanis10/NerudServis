@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Gulp pack for easy html/php markup development">
+	<meta name="keywords" content="">
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Главная</title>
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=9133eb49-3a97-4b2d-90be-6b80a97a5036" type="text/javascript"></script>
+</head>
+
+
+<body>
+	<header class="header">
+		<div class="container">
+        <div class="header__inner">
+            <div class="header__burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="header__left">
+                <a class="header__logo" href="">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="header__center">
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li><a class="header__link" href="">о нас</a></li>
+                        <li>
+                            <div class="header__item">
+                                <div class="header__item-show">
+                                    <span class="header__link">услуги</span>
+                                </div>
+                                <div class="header__item-hidden">
+                                    <div class="header__hidden-inner">
+                                        <a class="header__item-link" href="">Замена двигателей</a>
+                                        <a class="header__item-link" href="">Замена двигателей</a>
+                                        <a class="header__item-link" href="">Замена двигателей</a>
+                                        <a class="header__item-link" href="">Замена двигателей</a>
+                                        <a class="header__item-link" href="">Замена двигателей</a>
+                                        <a class="header__item-link" href="">Замена двигателей</a>
+                                        <a class="header__item-link" href="">Замена двигателей</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a class="header__link" href="">цены</a></li>
+                        <li><a class="header__link" href="">марки авто</a></li>
+                        <li><a class="header__link" href="">контакты</a></li>
+                    </ul>
+                    <button class="header__btn">заказать звонок</button>
+                </nav>
+            </div>
+            <div class="header__right">
+                <div class="header__connection">
+                    <a href="tel:+7 (4872) 00-00-00" class="header__img">
+                        <img class="header__tel" src="img/tel.svg" alt="">
+                        <img class="header__tel-mob" src="img/tel-mob.svg" alt="">
+                    </a>
+                    <div class="header__numbers">
+                        <a class="header__number" href="tel:+7 (4872) 00-00-00">
+                            <span>+7 (4872) 00-00-00</span>
+                        </a>
+                        <a class="header__number" href="tel:+7 (4872) 00-00-00">
+                            <span>+7 (4872) 00-00-00</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	</header>
+
+	<section class="main">
+		<div class="container">
+			<div class="main__inner">
+				<h1 class="main__title">Ремонт и сервисное обслуживание грузовых автомобилей</h1>
+				<p class="main__text">Наш грузовой сервис ремонтирует не только грузовые автомобили, но и автобусы, а также различную грузовую спецтехнику.</p>
+				<form class="main__form form">
+					<fieldset class="main__form-group form-group">
+						<input type="tel">
+						<label>Ваш телефон</label>
+					</fieldset>
+					<fieldset class="main__form-group form-group">
+						<input type="text">
+						<label>Ваше имя</label>
+					</fieldset>
+						<button class="main__form-btn form__btn btn-orange">Записаться</button>
+				</form>
+				<div class="main__bottom">
+					<div class="swiper mySwiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="main__item">
+									<div class="main__item-icon">
+										<img src="img/main-icon.svg" alt="">
+									</div>
+									<div class="main__item-desc">Согласуем каждый <br> этап ремонта</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="main__item">
+									<div class="main__item-icon">
+										<img src="img/main-icon2.svg" alt="">
+									</div>
+									<div class="main__item-desc">Вернем старые детали</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="main__item">
+									<div class="main__item-icon">
+										<img src="img/main-icon3.svg" alt="">
+									</div>
+									<div class="main__item-desc">Высокая квалификация <br> мастеров</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="main__item">
+									<div class="main__item-icon">
+										<img src="img/main-icon4.svg" alt="">
+									</div>
+									<div class="main__item-desc">Гарантия на все работы</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-button-prev">
+						<svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<line x1="6.35355" y1="0.353553" x2="0.353553" y2="6.35355" stroke="white"/>
+							<line y1="-0.5" x2="8.48528" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 6 12)" stroke="white"/>
+						</svg>
+					</div>
+					<div class="swiper-button-next">
+						<svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<line y1="-0.5" x2="8.28765" y2="-0.5" transform="matrix(0.707054 0.70716 0.707054 -0.70716 0.770996 0)" stroke="white"/>
+							<line y1="-0.5" x2="8.28765" y2="-0.5" transform="matrix(0.707054 -0.70716 0.707054 0.70716 0.770996 11.7217)" stroke="white"/>
+						</svg>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="services">
+		<img class="services__img" src="img/services-bg.webp" alt="">
+		<div class="container">
+			<div class="services__inner">
+				<div class="services__title">
+					<h2 class="display2">Наши <span>услуги</span></h2>
+				</div>
+				<div class="services__text">
+					Наш грузовой сервис ремонтирует не только грузовые автомобили, но и автобусы, а также различную грузовую спецтехнику. В штате нашего автосервиса работают профессиональные мастера, специализирующиеся на кузовных работах, ремонте двигателей, подвески, топливной системы и электрики грузовой техники.				</div>
+				<div class="services__slider">
+					<div class="services__btns">
+						<div class="swiper-button-prev">
+							<svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<line x1="6.35355" y1="0.353553" x2="0.353553" y2="6.35355" stroke="white"/>
+								<line y1="-0.5" x2="8.48528" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 6 12)" stroke="white"/>
+							</svg>
+						</div>
+						<div class="swiper-button-next">
+							<svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<line y1="-0.5" x2="8.28765" y2="-0.5" transform="matrix(0.707054 0.70716 0.707054 -0.70716 0.770996 0)" stroke="white"/>
+								<line y1="-0.5" x2="8.28765" y2="-0.5" transform="matrix(0.707054 -0.70716 0.707054 0.70716 0.770996 11.7217)" stroke="white"/>
+							</svg>
+						</div>
+					</div>
+					<div class="swiper mySwiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<a href="" class="services__card">
+    <div class="services__card-img">
+        <img src="img/services.webp" alt="">
+    </div>
+    <div class="services__card-desc">Автоэлектрик</div>
+</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="" class="services__card">
+    <div class="services__card-img">
+        <img src="img/services2.webp" alt="">
+    </div>
+    <div class="services__card-desc">Диагностика автомобиля</div>
+</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="" class="services__card">
+    <div class="services__card-img">
+        <img src="img/services3.webp" alt="">
+    </div>
+    <div class="services__card-desc">Диагностика перед покупкой</div>
+</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="" class="services__card">
+    <div class="services__card-img">
+        <img src="img/services4.webp" alt="">
+    </div>
+    <div class="services__card-desc">Замена двигателей</div>
+</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="" class="services__card">
+    <div class="services__card-img">
+        <img src="img/services5.webp" alt="">
+    </div>
+    <div class="services__card-desc">Капитальный ремонт двигателей</div>
+</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="" class="services__card">
+    <div class="services__card-img">
+        <img src="img/services6.webp" alt="">
+    </div>
+    <div class="services__card-desc">Компьютерная диагностика</div>
+</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="" class="services__card">
+    <div class="services__card-img">
+        <img src="img/services7.webp" alt="">
+    </div>
+    <div class="services__card-desc">Обслуживание автокондиционера</div>
+</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="" class="services__card">
+    <div class="services__card-img">
+        <img src="img/services8.webp" alt="">
+    </div>
+    <div class="services__card-desc">Помощь в прохождении техосмотра</div>
+</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="" class="services__card">
+    <div class="services__card-img">
+        <img src="img/services9.webp" alt="">
+    </div>
+    <div class="services__card-desc">Промывка форсунок двигателя</div>
+</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="" class="services__card">
+    <div class="services__card-img">
+        <img src="img/services10.webp" alt="">
+    </div>
+    <div class="services__card-desc">Развал-схождение</div>
+</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="" class="services__card">
+    <div class="services__card-img">
+        <img src="img/services11.webp" alt="">
+    </div>
+    <div class="services__card-desc">Ремонт АКПП</div>
+</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="" class="services__card">
+    <div class="services__card-img">
+        <img src="img/services12.webp" alt="">
+    </div>
+    <div class="services__card-desc">Ремонт глушителей</div>
+</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="" class="services__card">
+    <div class="services__card-img">
+        <img src="img/services13.webp" alt="">
+    </div>
+    <div class="services__card-desc">Ремонт двигателя</div>
+</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="" class="services__card">
+    <div class="services__card-img">
+        <img src="img/services14.webp" alt="">
+    </div>
+    <div class="services__card-desc">Ремонт карданных валов</div>
+</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="" class="services__card">
+    <div class="services__card-img">
+        <img src="img/services15.webp" alt="">
+    </div>
+    <div class="services__card-desc">Ремонт МКПП</div>
+</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="" class="services__card">
+    <div class="services__card-img">
+        <img src="img/services16.webp" alt="">
+    </div>
+    <div class="services__card-desc">Ремонт подвески</div>
+</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="" class="services__card">
+    <div class="services__card-img">
+        <img src="img/services17.webp" alt="">
+    </div>
+    <div class="services__card-desc">Ремонт раздаток</div>
+</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="" class="services__card">
+    <div class="services__card-img">
+        <img src="img/services18.webp" alt="">
+    </div>
+    <div class="services__card-desc">Ремонт рулевого управления</div>
+</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="" class="services__card">
+    <div class="services__card-img">
+        <img src="img/services19.webp" alt="">
+    </div>
+    <div class="services__card-desc">Ремонт тормозной системы</div>
+</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="" class="services__card">
+    <div class="services__card-img">
+        <img src="img/services20.webp" alt="">
+    </div>
+    <div class="services__card-desc">Ремонт трансмиссии</div>
+</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="" class="services__card">
+    <div class="services__card-img">
+        <img src="img/services21.webp" alt="">
+    </div>
+    <div class="services__card-desc">Ремонт турбин</div>
+</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="brands">
+			<div class="brands__inner">
+				<div class="brands__slider">
+					<div class="container">
+						<div class="brands__btns">
+							<div class="swiper-button-prev">
+								<svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<line x1="6.35355" y1="0.353553" x2="0.353553" y2="6.35355" stroke="white"/>
+									<line y1="-0.5" x2="8.48528" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 6 12)" stroke="white"/>
+								</svg>
+							</div>
+							<div class="swiper-button-next">
+								<svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<line y1="-0.5" x2="8.28765" y2="-0.5" transform="matrix(0.707054 0.70716 0.707054 -0.70716 0.770996 0)" stroke="white"/>
+									<line y1="-0.5" x2="8.28765" y2="-0.5" transform="matrix(0.707054 -0.70716 0.707054 0.70716 0.770996 11.7217)" stroke="white"/>
+								</svg>
+							</div>
+						</div>
+					</div>
+					<div class="swiper mySwiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<img src="img/brands2.webp" alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="img/brands3.webp" alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="img/brands4.webp" alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="img/brands5.webp" alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="img/brands6.webp" alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="img/brands2.webp" alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="img/brands3.webp" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="container">
+						<div class="brands__btn">
+							<button class="btn-orange">показать все марки авто</button>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+	<section class="prices">
+		<img class="prices__img" src="img/prices-bg.webp" alt="">
+		<img class="prices__img2" src="img/prices-bg2.webp" alt="">
+		<div class="container">
+			<div class="prices__inner">
+				<div class="prices__title">
+					<h2 class="display2">Наши <span>цены</span></h2>
+				</div>
+				<div class="prices__content">
+						<a href="" class="prices__item">
+							<div class="prices__item-desc">Диагностика подвески кабины</div>
+							<div class="prices__item-cost">от 450 руб.</div>
+						</a>
+						<a href="" class="prices__item">
+							<div class="prices__item-desc">Замена воздушного фильтра</div>
+							<div class="prices__item-cost">от 450 руб.</div>
+						</a>
+						<a href="" class="prices__item">
+							<div class="prices__item-desc">Диагностика подвески тягач</div>
+							<div class="prices__item-cost">от 450 руб.</div>
+						</a>
+						<a href="" class="prices__item">
+							<div class="prices__item-desc">Замена вставки воздушного фильтра</div>
+							<div class="prices__item-cost">от 450 руб.</div>
+						</a>
+						<a href="" class="prices__item">
+							<div class="prices__item-desc">Диагностика рулевого управления автобус</div>
+							<div class="prices__item-cost">от 450 руб.</div>
+						</a>
+						<a href="" class="prices__item">
+							<div class="prices__item-desc">Замена втулки кронштейна гидроцелиндра</div>
+							<div class="prices__item-cost">от 450 руб.</div>
+						</a>
+						<a href="" class="prices__item">
+							<div class="prices__item-desc">Диагностика ступичного узла с нерегулируемыми подшипниками</div>
+							<div class="prices__item-cost">от 450 руб.</div>
+						</a>
+						<a href="" class="prices__item">
+							<div class="prices__item-desc">Замена втулок оси подъема кузова самосвал</div>
+							<div class="prices__item-cost">от 450 руб.</div>
+						</a>
+						<a href="" class="prices__item">
+							<div class="prices__item-desc">Диагностика технического состояния ДВС</div>
+							<div class="prices__item-cost">от 450 руб.</div>
+						</a>
+						<a href="" class="prices__item">
+							<div class="prices__item-desc">Замена выключателя массы</div>
+							<div class="prices__item-cost">от 450 руб.</div>
+						</a>
+				</div>
+				<div class="prices__btn">
+					<button class="btn-orange">посмотреть весь прайс-лист</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="connection">
+		<div class="container">
+			<div class="connection__inner">
+				<div class="connection__title">
+					<h2 class="display2-white">Свяжитесь <span>с нами</span></h2>
+				</div>
+				<div class="connection__subtitle">Оставьте заявку и получите консультацию специалиста</div>
+				<form class="connection__form form">
+					<div class="connection__form-flex">
+						<fieldset class="connection__form-group form-group">
+							<input type="tel">
+							<label>Ваш телефон</label>
+						</fieldset>
+						<fieldset class="connection__form-group form-group">
+							<input type="text">
+							<label>Ваше имя</label>
+						</fieldset>
+					</div>
+					<div class="connection__check">
+						<input type="checkbox">
+						<label for="">Я даю согласие на <a href="">обработку моих персональных данных</a></label>
+					</div>
+					<button class="connection__form-btn form__btn btn-orange">Записаться</button>
+				</form>
+			</div>
+		</div>
+	</section>
+	<section class="about">
+		<img class="about__img-bg2" src="img/about-bg2.webp" alt="">
+		<div class="container">
+			<div class="about__inner">
+				<div class="about__left">
+					<img class="about__line" src="img/line.svg" alt="">
+					<img class="about__line2" src="img/line2.svg" alt="">
+					<img class="about__line-mob" src="img/line-mob.svg" alt="">
+					<img class="about__line-mob2" src="img/line-mob2.svg" alt="">
+					<img class="about__img-bg" src="img/about-bg.webp" alt="">
+					<div class="about__img">
+						<img src="img/about.webp" alt="">
+					</div>
+				</div>
+				<div class="about__right">
+					<div class="about__title">
+						<h2 class="display2">Немного <span>о нас</span></h2>
+					</div>
+					<div class="about__desc">
+						Грузовые автомобили — сложная техника, нуждающаяся в качественном обслуживании. Некоторые элементы конструкции машины со временем изнашиваются и выходят из строя. Наш сервисный центр оказывает услуги обслуживания и ремонта грузовиков. Компания имеет весь необходимый инструментарий для решения перечисленных работ. Если вы ищете качественный и недорогой грузовой автосервис, мы готовы помочь.
+					</div>
+					<button class="about__btn btn-orange">подробнее</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="stages">
+		<div class="container">
+			<div class="stages__inner">
+				<div class="stages__title">
+					<h2 class="display2-white">Этапы <span>работы</span></h2>
+				</div>
+				<div class="stages__slider">
+					<div class="stages__btns">
+						<div class="swiper-button-prev">
+							<svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<line x1="6.35355" y1="0.353553" x2="0.353553" y2="6.35355" stroke="white"/>
+								<line y1="-0.5" x2="8.48528" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 6 12)" stroke="white"/>
+							</svg>
+						</div>
+						<div class="swiper-button-next">
+							<svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<line y1="-0.5" x2="8.28765" y2="-0.5" transform="matrix(0.707054 0.70716 0.707054 -0.70716 0.770996 0)" stroke="white"/>
+								<line y1="-0.5" x2="8.28765" y2="-0.5" transform="matrix(0.707054 -0.70716 0.707054 0.70716 0.770996 11.7217)" stroke="white"/>
+							</svg>
+						</div>
+					</div>
+					<div class="swiper mySwiper">
+						<div class="swiper-wrapper">
+							<a href="" class="swiper-slide">
+								<span class="stages__number">01</span>
+								<div class="stages__icon">
+									<img src="img/stages-icon.webp" alt="">
+								</div>
+								<div class="stages__subtitle">Заявка</div>
+								<div class="stages__desc">Оставляете нам заявку по телефону или на нашем сайте</div>
+							</a>
+							<a href="" class="swiper-slide">
+								<span class="stages__number">02</span>
+								<div class="stages__icon">
+									<img src="img/stages-icon2.webp" alt="">
+								</div>
+								<div class="stages__subtitle">Запись</div>
+								<div class="stages__desc">Даем консультацию и определяем дату и время ремонта вашего автомобиля, а также стоимость работ</div>
+							</a>
+							<a href="" class="swiper-slide">
+								<span class="stages__number">03</span>
+								<div class="stages__icon">
+									<img src="img/stages-icon.webp" alt="">
+								</div>
+								<div class="stages__subtitle">Ремонт</div>
+								<div class="stages__desc">Осуществляем ремонт или диагностику автомобиля в нашем автосервисе</div>
+							</a>
+							<a href="" class="swiper-slide">
+								<span class="stages__number">04</span>
+								<div class="stages__icon">
+									<img src="img/stages-icon.webp" alt="">
+								</div>
+								<div class="stages__subtitle">Оплата</div>
+								<div class="stages__desc">Мастер сообщает о ремонте, клиент проверяет автомобиль и оплачивает ремонт</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="works">
+		<img class="works__img-bg" src="img/prices-bg2.webp" alt="">
+		<div class="container">
+			<div class="works__inner">
+				<div class="works__title">
+					<h2 class="display2">Примеры выполненны <br> <span>работ</span> </h2>
+				</div>
+				<div class="works__subtitle">Мы отремонтировали более 420 авто за год!</div>
+				<div class="works__slider">
+					<div class="works__btns">
+						<div class="swiper-button-prev">
+							<svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<line x1="6.35355" y1="0.353553" x2="0.353553" y2="6.35355" stroke="white"/>
+								<line y1="-0.5" x2="8.48528" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 6 12)" stroke="white"/>
+							</svg>
+						</div>
+						<div class="swiper-button-next">
+							<svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<line y1="-0.5" x2="8.28765" y2="-0.5" transform="matrix(0.707054 0.70716 0.707054 -0.70716 0.770996 0)" stroke="white"/>
+								<line y1="-0.5" x2="8.28765" y2="-0.5" transform="matrix(0.707054 -0.70716 0.707054 0.70716 0.770996 11.7217)" stroke="white"/>
+							</svg>
+						</div>
+					</div>
+					<div class="swiper mySwiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="works-slide__left">
+									<div class="works-slide__subtitle">Мойка грузового автомобиля Volvo</div>
+									<div class="works-slide__desc">
+										<span>Было:</span>
+										Грязный грузовик после карьера.
+									</div>
+									<div class="works-slide__desc">
+										<span>Стало:</span>
+										Прочистили все детали от грязи, покрыли кузов воском. Сделали чернение резины.
+									</div>
+									<button class="works-slide__btn btn-orange">все работы</button>
+								</div>
+								<div class="works-slide__right">
+									<img class="works__line" src="img/line.svg" alt="">
+									<img class="works__line2" src="img/line2.svg" alt="">
+									<img class="works__line-mob" src="img/line-mob.svg" alt="">
+									<img class="works__line-mob2" src="img/line-mob2.svg" alt="">
+									<div class="works-slide__img">
+										<img src="img/works.webp" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="works-slide__left">
+									<div class="works-slide__subtitle">Мойка грузового автомобиля Volvo</div>
+									<div class="works-slide__desc">
+										<span>Было:</span>
+										Грязный грузовик после карьера.
+									</div>
+									<div class="works-slide__desc">
+										<span>Стало:</span>
+										Прочистили все детали от грязи, покрыли кузов воском. Сделали чернение резины.
+									</div>
+									<button class="works-slide__btn btn-orange">все работы</button>
+								</div>
+								<div class="works-slide__right">
+									<img class="works__line" src="img/line.svg" alt="">
+									<img class="works__line2" src="img/line2.svg" alt="">
+									<img class="works__line-mob" src="img/line-mob.svg" alt="">
+									<img class="works__line-mob2" src="img/line-mob2.svg" alt="">
+									<div class="works-slide__img">
+										<img src="img/works.webp" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="works-slide__left">
+									<div class="works-slide__subtitle">Мойка грузового автомобиля Volvo</div>
+									<div class="works-slide__desc">
+										<span>Было:</span>
+										Грязный грузовик после карьера.
+									</div>
+									<div class="works-slide__desc">
+										<span>Стало:</span>
+										Прочистили все детали от грязи, покрыли кузов воском. Сделали чернение резины.
+									</div>
+									<button class="works-slide__btn btn-orange">все работы</button>
+								</div>
+								<div class="works-slide__right">
+									<img class="works__line" src="img/line.svg" alt="">
+									<img class="works__line2" src="img/line2.svg" alt="">
+									<img class="works__line-mob" src="img/line-mob.svg" alt="">
+									<img class="works__line-mob2" src="img/line-mob2.svg" alt="">
+									<div class="works-slide__img">
+										<img src="img/works.webp" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="advantages">
+		<img class="advantages__img-bg" src="img/advantages-bg.webp" alt="">
+		<div class="container">
+			<div class="advantages__inner">
+				<div class="advantages__title">
+					<h2 class="display2">Наши <span>преимущества</span></h2>
+				</div>
+				<div class="advantages__slider">
+					<div class="advantages__btns">
+						<div class="swiper-button-prev">
+							<svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<line x1="6.35355" y1="0.353553" x2="0.353553" y2="6.35355" stroke="white"/>
+								<line y1="-0.5" x2="8.48528" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 6 12)" stroke="white"/>
+							</svg>
+						</div>
+						<div class="swiper-button-next">
+							<svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<line y1="-0.5" x2="8.28765" y2="-0.5" transform="matrix(0.707054 0.70716 0.707054 -0.70716 0.770996 0)" stroke="white"/>
+								<line y1="-0.5" x2="8.28765" y2="-0.5" transform="matrix(0.707054 -0.70716 0.707054 0.70716 0.770996 11.7217)" stroke="white"/>
+							</svg>
+						</div>
+					</div>
+					<div class="swiper mySwiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<span class="advantages-slide__number">01</span>
+								<div class="advantages-slide__icon">
+									<img src="img/advantages.webp" alt="">
+								</div>
+								<div class="advantages-slide__title">Длительная гарантия</div>
+								<div class="advantages-slide__text">
+									Мы стремимся быть справедливыми и честными и относимся к вам так, как мы хотели бы, чтобы относились к нам - с уважением и вниманием. На большинство проводимых нами работ и запчасти даем одну из самых длительных гарантий в Туле.
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<span class="advantages-slide__number">02</span>
+								<div class="advantages-slide__icon">
+									<img src="img/advantages2.webp" alt="">
+								</div>
+								<div class="advantages-slide__title">Вы в курсе всего</div>
+								<div class="advantages-slide__text">
+									Без вашего согласия мы не проводим никаких дополнительных ремонтных работ и не повышаем цены. Вы заранее будете знать какие работы будут проводиться с автомобилем, сколько времени это займет, какова будет итоговая стоимость работ и запасных частей.
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<span class="advantages-slide__number">03</span>
+								<div class="advantages-slide__icon">
+									<img src="img/advantages3.webp" alt="">
+								</div>
+								<div class="advantages-slide__title">Ремонтируем только то, что реально требует ремонта</div>
+								<div class="advantages-slide__text">
+									Мы никогда не оказываем давления на клиентов с целью навязать ненужные работы. По всем возникающим вопросам мы дадим вам необходимые консультации и подскажем что стоит делать срочно, а с чем можно подождать.
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<span class="advantages-slide__number">04</span>
+								<div class="advantages-slide__icon">
+									<img src="img/advantages4.webp" alt="">
+								</div>
+								<div class="advantages-slide__title">Вежливые сотрудники</div>
+								<div class="advantages-slide__text">
+									Мы говорим с вами на простом и понятном языке без заумных технических терминов, от которых болит голова.
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<span class="advantages-slide__number">05</span>
+								<div class="advantages-slide__icon">
+									<img src="img/advantages5.webp" alt="">
+								</div>
+								<div class="advantages-slide__title">Мы сами подберем нужные запчасти</div>
+								<div class="advantages-slide__text">
+									В случае отсутствия на нашем складе нужных деталей мы доставим их в самые короткие сроки без посредников. Вам не нужно самостоятельно что-то искать и тратить свое время, а ремонт пройдет максимально быстро и удобно для вас.
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<span class="advantages-slide__number">06</span>
+								<div class="advantages-slide__icon">
+									<img src="img/advantages6.webp" alt="">
+								</div>
+								<div class="advantages-slide__title">Полная прозрачность процесса ремонта</div>
+								<div class="advantages-slide__text">
+									Мастер-консультант с готовностью проводит вас в ремзону, если вы пожелаете лично взглянуть на обнаруженные неисправности. Вы всегда будете знать какой мастер отвечает за ваш автомобиль.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="cost">
+		<div class="container">
+			<div class="cost__title">
+				<h2 class="display2-white"><span> Рассчитайте</span> <br>стоимость ремонта</h2>
+			</div>
+			<form class="cost__form" onsubmit="return false;">
+				<div class="cost__subtitle">Где возникла проблема?</div>
+				<div class="cost__content">
+					<div class="cost__content-left">
+						<div class="cost__item">
+							<input type="checkbox" checked>
+							<label>Нужна диагностика</label>
+						</div>
+						<div class="cost__item">
+							<input type="checkbox">
+							<label>Ходовая и рулевое управление</label>
+						</div>
+						<div class="cost__item">
+							<input type="checkbox">
+							<label>Тормозная система</label>
+						</div>
+						<div class="cost__item">
+							<input type="checkbox">
+							<label>Трансмиссия (КПП/АКПП)</label>
+						</div>
+						<div class="cost__item">
+							<input type="checkbox">
+							<label>Нужна заправка кондиционера</label>
+						</div>
+					</div>
+					<div class="cost__content-right">
+						<div class="cost__item">
+							<input type="checkbox">
+							<label>Двигатель</label>
+						</div>
+						<div class="cost__item">
+							<input type="checkbox">
+							<label>Замена жидкостей, ТО</label>
+						</div>
+						<div class="cost__item">
+							<input type="checkbox">
+							<label>Автоэлектрика</label>
+						</div>
+						<div class="cost__item">
+							<input type="checkbox">
+							<label>Шиномонтаж / развал-схождение</label>
+						</div>
+						<div class="cost__item">
+							<input type="checkbox">
+							<label>Выхлопная система</label>
+						</div>
+					</div>
+				</div>
+				<button class="cost__btn btn-orange">далее</button>
+			</form>
+			<form class="cost__form2 form">
+				<div class="cost__subtitle">Оставьте ваши контакты, мы перезвоним вам в течение 30 минут</div>
+				<div class="cost__form2-flex">
+					<fieldset class="cost__form2-group form-group">
+						<input type="tel">
+						<label>Ваш телефон</label>
+					</fieldset>
+					<fieldset class="cost__form2-group form-group">
+						<input type="text">
+						<label>Ваше имя</label>
+					</fieldset>
+				</div>
+				<div class="cost__check">
+					<input type="checkbox">
+					<label for="">Я даю согласие на <a href="">обработку моих персональных данных</a></label>
+				</div>
+				<button class="cost__form2-btn form__btn btn-orange">Записаться</button>
+			</form>
+		</div>
+	</section>
+	<section class="our-contacts">
+		<div class="container">
+			<div class="our-contacts__inner">
+				<div class="our-contacts__left">
+					<div class="our-contacts__title">
+						<h2 class="display2">Наши <span>контакты</span></h2>
+					</div>
+					<div class="our-contacts__subtitle">«Неруд-Сервис» – это компания, которая станет вашим надежным партнером и поставщиком на долгие годы</div>
+					<div class="our-contacts__tel">
+						<i class="our-contacts__tel-icon">
+							<img src="img/tel2.svg" alt="">
+						</i>
+						<div class="our-contacts__numbers">
+							<a class="our-contacts__number" href="tel:+7 (4872) 00-00-00">+7 (4872) 00-00-00</a>
+							<a class="our-contacts__number" href="tel:+7 (4872) 00-00-00">+7 (4872) 00-00-00</a>
+						</div>
+					</div>
+					<a href="" class="our-contacts__location">
+						<i>
+							<img src="img/location.svg" alt="">
+						</i>
+						<span>г. Тула, ул. Ленина, д.1, оф. 2</span>
+					</a>
+					<a class="our-contacts__mail" href="mailto:info@ng-service.ru">
+						<i>
+							<img src="img/mail.svg" alt="">
+						</i>
+						<span>info@ng-service.ru</span>
+					</a>
+					<a class="our-contacts__chart" href="">
+						<i>
+							<img src="img/chart.svg" alt="">
+						</i>
+						<span>Ежедневно <br> с 9:00 до 19:00</span>
+					</a>
+				</div>
+				<div class="our-contacts__right">
+					<img class="our-contacts__line" src="img/line.svg" alt="">
+					<img class="our-contacts__line2" src="img/line2.svg" alt="">
+					<img class="our-contacts__line-mob" src="img/line-mob.svg" alt="">
+					<img class="our-contacts__line-mob2" src="img/line-mob2.svg" alt="">
+					<img class="our-contacts__img-bg" src="img/prices-bg.webp" alt="">
+					<div id="map" class="map"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__items">
+                <div class="footer__item">
+                    <a class="footer__logo" href="">
+                        <img src="img/logo.png" alt="">
+                    </a>
+                    <a href="" class="footer__service">Ремонт и сервисное обслуживание грузовых автомобилей</a>
+                    <a href="" class="footer__service"><span>Разработка и продвижение сайта <br></span>- BREVIS
+                    </a>
+                </div>
+                <div class="footer__item">
+                    <ul class="footer__list">
+                        <li><a href="">О нас</a></li>
+                        <li><a href="">Услуги</a></li>
+                        <li><a href="">Цены</a></li>
+                        <li><a href="">Марки авто</a></li>
+                        <li><a href="">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <ul class="footer__list">
+                        <li><a href="">Ремонт грузовых автомобилей</a></li>
+                        <li><a href="">Ремонт прицепов</a></li>
+                        <li><a href="">Ремонт спецтехники</a></li>
+                        <li><a href="">Ремонт тягачей</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__tel">
+                        <i class="footer__tel-icon">
+                            <img src="img/tel2.svg" alt="">
+                        </i>
+                        <div class="footer__numbers">
+                            <a class="footer__number" href="tel:+7 (4872) 00-00-00">+7 (4872) 00-00-00</a>
+                            <a class="footer__number" href="tel:+7 (4872) 00-00-00">+7 (4872) 00-00-00</a>
+                        </div>
+                    </div>
+                    <a href="" class="footer__location">
+                        <i>
+                            <img src="img/location.svg" alt="">
+                        </i>
+                        <span>г. Тула, ул. Ленина, д.1, оф. 2</span>
+                    </a>
+                    <a class="footer__mail" href="mailto:info@ng-service.ru">
+                        <i>
+                            <img src="img/mail.svg" alt="">
+                        </i>
+                        <span>info@ng-service.ru</span>
+                    </a>
+                    <a class="footer__chart" href="">
+                        <i>
+                            <img src="img/chart.svg" alt="">
+                        </i>
+                        <span>Ежедневно <br> с 9:00 до 19:00</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+	<script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+
+	<script type="text/javascript">
+    ymaps.ready(init);
+
+function init() {
+    var myMap = new ymaps.Map("map", {
+        center: [54.133506, 37.582511],
+        zoom: 15
+    });
+
+    var myPlacemark = new ymaps.Placemark([54.133506, 37.582511], null, {
+        iconLayout: 'default#image',
+        iconImageHref: "img/map-icon.svg",
+        iconImageSize: [45, 60],
+        // iconImageOffset: [-15, -44]
+    });
+    myMap.geoObjects.add(myPlacemark);
+    myMap.behaviors.disable('scrollZoom');
+
+}
+</script>
+</body>
+
+</html>
